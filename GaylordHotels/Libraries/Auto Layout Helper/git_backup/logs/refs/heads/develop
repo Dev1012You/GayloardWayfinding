@@ -1,0 +1,10 @@
+0000000000000000000000000000000000000000 098278c314841988db5e6e15894a9d43cea70c06 Michael Thongvanh <michael@thongvanh.com> 1428689875 +0200	branch: Created from master
+098278c314841988db5e6e15894a9d43cea70c06 e8b5b097d795e5f199951565543c15ab6957b3cf Michael Thongvanh <michael@thongvanh.com> 1428689971 +0200	commit: first commit
+e8b5b097d795e5f199951565543c15ab6957b3cf 314053576683c7a282ed59daf8e210808f2245bb Michael Thongvanh <michael@thongvanh.com> 1429025835 +0200	commit: added custom menu styling
+314053576683c7a282ed59daf8e210808f2245bb 70e78061e0da89adf9998580b2a2d65f23d459cc Michael Thongvanh <michael@thongvanh.com> 1429104270 +0200	commit: made auto layout helper a bit more flexible by enabling a constant parameter
+70e78061e0da89adf9998580b2a2d65f23d459cc 1be6eada52b495a49ae1e0f4e928a0144314099d Michael Thongvanh <michael@thongvanh.com> 1429786352 +0200	commit: added external redirection for web view links
+1be6eada52b495a49ae1e0f4e928a0144314099d 4e4676aa33cfc934ea2dee3549d75da94669c1eb Michael Thongvanh <michael@thongvanh.com> 1430148355 +0200	commit: updated helper methods
+4e4676aa33cfc934ea2dee3549d75da94669c1eb 3329c4e5dfdbef4b2ae4b73d4260d65129fd8eec Michael Thongvanh <michael@thongvanh.com> 1431563801 +0200	commit: added stacking 2 views vertically
+3329c4e5dfdbef4b2ae4b73d4260d65129fd8eec f0160ebce0fd80239d18720ae04a3620fd06aa92 Michael Thongvanh <michael@thongvanh.com> 1437411991 +0200	commit: corrected pin to superview bounds with constant behavior
+f0160ebce0fd80239d18720ae04a3620fd06aa92 2c88257a8aff1148c556914d9bcd7e6acb7596ba Michael Thongvanh <michael@thongvanh.com> 1437466880 +0200	commit: fixed constraint constants for trailing and bottom constraints in pinToSuperviewBounds
+2c88257a8aff1148c556914d9bcd7e6acb7596ba 91119080e5644359fc35a126e4b9f04b52237ba1 Michael Thongvanh <michael@thongvanh.com> 1437471812 +0200	commit: updated pinSides constants

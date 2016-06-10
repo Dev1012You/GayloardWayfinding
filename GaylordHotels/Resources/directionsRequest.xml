@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?> <soap:Envelope
+    xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"> <soap:Body>
+        <GetPathResponse xmlns="http://api.wayfindingpro.com/"> <GetPathResult>
+            <anyType xsi:type="ArrayOfString"> <string>{405;2894;1}</string> <string>{405;2872;1}</string> <string>{395;2864;1}</string> <string>{396;2841;1}</string>
+                <string>{396;2832;1}</string> <string>{413;2832;1}</string> <string>{414;2643;2}</string> <string>{416;2384;3}</string> <string>{405;2384;3}</string> <string>{405;2375;3}</string> <string>{367;2375;3}</string> <string>{366;2391;3}</string> <string>{285;2391;3}</string> <string>{280;2382;3}</string> <string>{274;2381;3}</string> <string>{277;2366;3}</string> <string>{282;2344;3}</string> <string>{287;2320;3}</string> <string>{273;2320;3}</string> <string>{274;2313;3}</string> <string>{272;1936;4}</string> <string>{270;1650;5}</string> <string>{272;1266;6}</string> <string>{273;891;7}</string> <string>{273;600;8}</string> <string>{274;606;8}</string> <string>{297;606;8}</string> <string>{288;653;8}</string> <string>{285;672;8}</string> <string>{328;672;8}</string> <string>{399;672;8}</string> <string>{399;661;8}</string> <string>{389;661;8}</string>
+            </anyType>
+            <anyType xsi:type="FloorPathInfo"> <FloorNumber>1</FloorNumber> <PathNodes>
+                <string>{405;152;1}</string> <string>{405;130;1}</string> <string>{395;122;1}</string> <string>{396;99;1}</string> <string>{396;90;1}</string> <string>{413;90;1}</string>
+            </PathNodes>
+            </anyType>
+            ￼￼￼￼￼<anyType xsi:type="xsd:string">{413;90;1},{414;159;2},[1],[2],[Elevator]</anyType>
+            <anyType xsi:type="FloorPathInfo"> <FloorNumber>2</FloorNumber> <PathNodes>
+                <string>{414;159;2}</string> </PathNodes>
+            </anyType>
+            <anyType xsi:type="xsd:string">{414;159;2},{416;189;3},[2],[3],[Elevator]</anyType>
+            <anyType xsi:type="FloorPathInfo"> <FloorNumber>3</FloorNumber> <PathNodes>
+                <string>{416;189;3}</string> <string>{405;189;3}</string> <string>{405;180;3}</string>
+                ￼<string>{367;180;3}</string> <string>{366;196;3}</string> <string>{285;196;3}</string> <string>{280;187;3}</string> <string>{274;186;3}</string> <string>{277;171;3}</string> <string>{282;149;3}</string> <string>{287;125;3}</string> <string>{273;125;3}</string> <string>{274;118;3}</string>
+            </PathNodes>
+            </anyType>
+            <anyType xsi:type="xsd:string">{274;118;3},{272;114;4},[3],[4],[Elevator]</anyType>
+            <anyType xsi:type="FloorPathInfo"> <FloorNumber>4</FloorNumber> <PathNodes>
+                <string>{272;114;4}</string> </PathNodes>
+            </anyType>
+            <anyType xsi:type="xsd:string">{272;114;4},{270;117;5},[4],[5],[Elevator]</anyType>
+            <anyType xsi:type="FloorPathInfo"> <FloorNumber>5</FloorNumber> <PathNodes>
+                <string>{270;117;5}</string> </PathNodes>
+            </anyType>
+            <anyType xsi:type="xsd:string">{270;117;5},{272;113;6},[5],[6],[Elevator]</anyType>
+            <anyType xsi:type="FloorPathInfo">
+                ￼<FloorNumber>6</FloorNumber> <PathNodes>
+                    <string>{272;113;6}</string> </PathNodes>
+            </anyType>
+            <anyType xsi:type="xsd:string">{272;113;6},{273;109;7},[6],[7],[Elevator]</anyType>
+            <anyType xsi:type="FloorPathInfo"> <FloorNumber>7</FloorNumber> <PathNodes>
+                ￼￼￼￼<string>{273;109;7}</string> </PathNodes>
+            </anyType>
+            <anyType xsi:type="xsd:string">{273;109;7},{273;76;8},[7],[8],[Elevator]</anyType>
+            <anyType xsi:type="FloorPathInfo"> <FloorNumber>8</FloorNumber> <PathNodes>
+                <string>{273;76;8}</string> <string>{274;82;8}</string> <string>{297;82;8}</string> <string>{288;129;8}</string> <string>{285;148;8}</string> <string>{328;148;8}</string> <string>{399;148;8}</string> <string>{399;137;8}</string>
+                ￼￼<string>{389;137;8}</string> </PathNodes>
+            </anyType>
+            <anyType xsi:type="Directions">
+                <Text>Exit MRI;Take a Slight Left;Take a Slight Right;Continue;Turn Right to arrive at the elevator</Text>
+                <isSingleElevatorPathUsed>false</isSingleElevatorPathUsed> </anyType>
+            <anyType xsi:type="Directions"> <Text>Departing floor #1</Text>
+                <isSingleElevatorPathUsed>false</isSingleElevatorPathUsed> </anyType>
+            <anyType xsi:type="Directions">
+                <Text>Continue on elevator passing floor #2</Text>
+                <isSingleElevatorPathUsed>false</isSingleElevatorPathUsed> </anyType>
+            <anyType xsi:type="Directions"> <Text>Arrive at floor #3</Text>
+                <isSingleElevatorPathUsed>false</isSingleElevatorPathUsed> </anyType>
+            <anyType xsi:type="Directions">
+                <Text>Take elevator to floor #3;Exit Elevator E;Turn Right;Turn Left;Turn Left;Turn Right;Turn Right;Take a Slight Left at Information Desk Kiosk;Turn Right;Continue and go through 1 intersections;Turn Left;Turn Right to arrive at Elevator S</Text>
+                <isSingleElevatorPathUsed>false</isSingleElevatorPathUsed>
+                ￼</anyType>
+            <anyType xsi:type="Directions">
+                <Text>Continue on elevator passing floor #4</Text>
+                <isSingleElevatorPathUsed>false</isSingleElevatorPathUsed> </anyType>
+            <anyType xsi:type="Directions">
+                <Text>Continue on elevator passing floor #5</Text>
+                <isSingleElevatorPathUsed>false</isSingleElevatorPathUsed>
+            </anyType>
+            <anyType xsi:type="Directions">
+                <Text>Continue on elevator passing floor #6</Text>
+                <isSingleElevatorPathUsed>false</isSingleElevatorPathUsed> </anyType>
+            <anyType xsi:type="Directions">
+                <Text>Continue on elevator passing floor #7</Text>
+                <isSingleElevatorPathUsed>false</isSingleElevatorPathUsed> </anyType>
+            <anyType xsi:type="Directions"> <Text>Departing floor #7</Text>
+                <isSingleElevatorPathUsed>false</isSingleElevatorPathUsed> </anyType>
+            <anyType xsi:type="Directions"> <Text>Arrive at floor #8</Text>
+                <isSingleElevatorPathUsed>false</isSingleElevatorPathUsed> </anyType>
+            <anyType xsi:type="Directions">
+                <Text>Take elevator to floor #8;Exit Elevator S;Turn Left;Turn Right;Continue;Turn Left;Continue;Turn Left;Cath Lab will be on the Left</Text>
+                <isSingleElevatorPathUsed>false</isSingleElevatorPathUsed> </anyType>
+        </GetPathResult>
+        </GetPathResponse>
+    </soap:Body>
+</soap:Envelope>
+
+
+
+
+
+

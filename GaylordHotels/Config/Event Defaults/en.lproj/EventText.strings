@@ -1,0 +1,11 @@
+/* 
+  EventText.strings
+  MeetingPlayiBeaconStarter
+
+  Created by John Pacheco on 4/9/15.
+  Copyright (c) 2015 John Pacheco. All rights reserved.
+*/
+
+"loginFailedUsername" = "Sorry, the login failed. Please check your information and retry.";
+"mainMenuConnectedUsers" = "Connected to";
+"mainMenuConnectedNoUsers" = "Not connected to any";
